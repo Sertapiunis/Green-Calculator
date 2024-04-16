@@ -1,0 +1,72 @@
+.main {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(51, 144, 104);
+	border: 1px solid gray;
+	border-radius: 11px;
+	width: 225px;
+	height: 324px;
+	padding-top: 5px;
+}
+
+.input_div {
+	padding: 6px;
+}
+
+#output_div {
+	width: 200px;
+	height: 20px;
+	text-align: right;
+	word-wrap: break-word;
+	overflow-x: hidden;
+	padding: 6px;
+}
+
+.btn_section {
+	width: 200px;
+	height: 223px;
+	background-color: rgb(65, 130, 109);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 6px;
+	border: 1px solid green;
+	border-radius: 11px;
+}
+
+.btn_item {
+	display: flex;
+	width: 39px;
+	height: 39px;
+	background-color: aquamarine;
+	border: 2px solid green;
+	border-radius: 11px;
+	margin: 3px;
+	padding: 3px;
+	justify-content: center;
+	align-items: center;
+	font-size: large;
+}
+
+.btn_item:hover {
+	color: aquamarine;
+	background-color: rgb(65, 130, 109);
+	border: 2px solid rgb(39, 79, 39);
+}
+
+#input-num {
+	width: 200px;
+	height: 30px;
+	background-color: aquamarine;
+	font-size: 22px;
+	margin-bottom: 3px;
+	text-align: right;
+}
